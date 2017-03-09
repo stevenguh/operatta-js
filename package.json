@@ -88,7 +88,6 @@
     "lint": "npm run standard && npm run flow",
     "postbuild": "cp -r lib demo/",
     "prebuild": "npm run clean",
-    "preinstall": "npm run build",
     "prepublish": "npm run build",
     "prerelease": "npm run build",
     "report": "nyc report --reporter=html",
